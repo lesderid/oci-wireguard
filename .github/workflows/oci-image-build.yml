@@ -1,6 +1,7 @@
 ---
 name: 'Build Wireguard Image'
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
